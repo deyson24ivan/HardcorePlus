@@ -1,0 +1,1 @@
+function hardcore:test_modo_actual

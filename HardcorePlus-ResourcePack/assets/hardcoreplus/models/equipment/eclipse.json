@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "hardcoreplus:eclipse"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "hardcoreplus:eclipse"
+      }
+    ]
+  }
+}

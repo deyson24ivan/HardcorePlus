@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ANA",
+    "ETE",
+    "ADA"
+  ],
+  "key": {
+    "A": "minecraft:ancient_debris",
+    "N": "minecraft:nether_star",
+    "E": "minecraft:echo_shard",
+    "T": "minecraft:totem_of_undying",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:carrot_on_a_stick"
+  },
+  "show_notification": true
+}

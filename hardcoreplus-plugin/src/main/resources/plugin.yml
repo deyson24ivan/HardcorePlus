@@ -1,0 +1,74 @@
+name: HardcorePlusPlugin
+version: 0.5.21
+main: dev.deyso.hardcoreplus.HardcorePlusPlugin
+description: Tienda y perfil GUI para HardcorePlus.
+author: Deyson
+api-version: '26.2'
+commands:
+  tienda:
+    description: Abre la tienda de puntos.
+    usage: /tienda
+  shop:
+    description: Abre la tienda de puntos.
+    usage: /shop
+  perfil:
+    description: Abre tu perfil de estadisticas.
+    usage: /perfil
+  estadisticas:
+    description: Abre tu perfil de estadisticas.
+    usage: /estadisticas
+  puntos:
+    description: Muestra tus puntos actuales.
+    usage: /puntos
+  hpgivepoints:
+    description: Comando de prueba para sumar puntos.
+    usage: /hpgivepoints <jugador> <cantidad>
+  hpgivearmor:
+    description: Comando de prueba para entregar una armadura custom.
+    usage: /hpgivearmor <jugador> <set>
+  hpgivematerial:
+    description: Comando de prueba para entregar materiales y objetos especiales.
+    usage: /hpgivematerial <jugador> <material/item> [cantidad]
+  waystone:
+    description: Abre o administra tus waystones.
+    usage: /waystone
+  waystones:
+    description: Abre tus waystones.
+    usage: /waystones
+  lobby:
+    description: Te teletransporta al punto del lobby.
+    usage: /lobby [set]
+  pvp:
+    description: Lista de jugadores para eventos PvP.
+    usage: /pvp
+  tntrun:
+    description: Entra al evento TNTRun abierto.
+    usage: /tntrun
+  botes:
+    description: Entra al evento Carrera de Botes abierto.
+    usage: /botes
+  cabezas:
+    description: Entra al evento Cazadores de Cabezas abierto.
+    usage: /cabezas
+  laberinto:
+    description: Entra al evento Laberinto a Ciegas abierto.
+    usage: /laberinto
+  evento:
+    description: Administra eventos de HardcorePlus.
+    usage: /evento <evento>
+  jefe:
+    description: Invoca un jefe de HardcorePlus para pruebas de admin.
+    usage: /jefe <jefe>
+  jefes:
+    description: Muestra la ruta de jefes de HardcorePlus.
+    usage: /jefes
+permissions:
+  hardcoreplus.pvpadmin:
+    description: Permite administrar la lista y teletransportes PvP.
+    default: op
+  hardcoreplus.eventadmin:
+    description: Permite abrir, iniciar y cerrar eventos de HardcorePlus.
+    default: op
+  hardcoreplus.bossadmin:
+    description: Permite invocar jefes de HardcorePlus para pruebas.
+    default: op

@@ -1,0 +1,24 @@
+# Servidor local y datos generados durante las pruebas
+paper-local-26.2/
+
+# Referencias temporales y cache de herramientas
+.vanilla-textures/
+**/__pycache__/
+*.py[cod]
+
+# Salidas intermedias del plugin (se conserva el JAR final)
+hardcoreplus-plugin/build/classes/
+hardcoreplus-plugin/build/sources.txt
+
+# Paquetes reemplazados por una version mas reciente
+HardcorePlus-Custom-Armor-v0.22.zip
+
+# Archivos habituales del sistema y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.tmp
+*.log
+

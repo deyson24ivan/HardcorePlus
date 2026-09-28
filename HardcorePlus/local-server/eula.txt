@@ -1,0 +1,2 @@
+# Cambia false a true solo despues de leer y aceptar el EULA de Minecraft.
+eula=false

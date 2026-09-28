@@ -1,0 +1,5 @@
+item replace entity @s armor.head with minecraft:diamond_helmet[minecraft:enchantments={"minecraft:protection":1,"minecraft:thorns":1}]
+item replace entity @s armor.chest with minecraft:diamond_chestplate[minecraft:enchantments={"minecraft:protection":1,"minecraft:thorns":1}]
+item replace entity @s armor.legs with minecraft:diamond_leggings[minecraft:enchantments={"minecraft:protection":1,"minecraft:thorns":1}]
+item replace entity @s armor.feet with minecraft:diamond_boots[minecraft:enchantments={"minecraft:protection":1,"minecraft:thorns":1}]
+data modify entity @s ArmorDropChances set value [0.0f,0.0f,0.0f,0.0f]

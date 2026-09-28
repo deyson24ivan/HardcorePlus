@@ -1,0 +1,5 @@
+item replace entity @s armor.head with minecraft:netherite_helmet[minecraft:enchantments={"minecraft:protection":3}]
+item replace entity @s armor.chest with minecraft:netherite_chestplate[minecraft:enchantments={"minecraft:protection":3}]
+item replace entity @s armor.legs with minecraft:netherite_leggings[minecraft:enchantments={"minecraft:protection":3}]
+item replace entity @s armor.feet with minecraft:netherite_boots[minecraft:enchantments={"minecraft:protection":3,"minecraft:feather_falling":3}]
+data modify entity @s ArmorDropChances set value [0.0f,0.0f,0.0f,0.0f]

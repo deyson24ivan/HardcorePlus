@@ -1,0 +1,1 @@
+function hardcore:bosses/clear

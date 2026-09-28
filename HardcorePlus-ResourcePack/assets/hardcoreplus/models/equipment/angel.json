@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "hardcoreplus:angel"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "hardcoreplus:angel"
+      }
+    ]
+  }
+}
